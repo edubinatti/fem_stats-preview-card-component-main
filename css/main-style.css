@@ -104,3 +104,34 @@ body {
     letter-spacing: 1px;
     color: var(--clr-slightlyTransparentWhite-sh);
 }
+
+
+@media (min-width: 540px) {
+
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        max-width: 1110px;
+        max-height: 446px;
+    }
+
+    .card .card-img-box{    
+        min-width: 540px;
+        background-image: url('../images/image-header-desktop.jpg');        
+    }
+
+    .card .card-content {
+        padding: 5.2rem 8.133rem 4.466666666666667rem 4.8rem;
+    }
+
+    .card .card-content .card-stats{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+}
